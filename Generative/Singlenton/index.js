@@ -2,12 +2,12 @@
 
 class Counter {
     constructor() {
-        if (typeof Counter.instece == 'object') {
-            return Counter.instece
+        if (typeof Counter.instence == 'object') {
+            return Counter.instence
         }
 
         this.count = 0
-        Counter.instece = this
+        Counter.instence = this
         return this
     }
 
